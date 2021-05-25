@@ -127,4 +127,3 @@ if __name__ == '__main__':
     httpd = ThreadHTTPServer(server_address, Shortener)
     httpd.serve_forever()
     
-    
